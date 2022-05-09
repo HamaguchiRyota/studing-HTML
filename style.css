@@ -1,0 +1,19 @@
+h1{font-size: 38px;
+   text-align: center;
+   color: red;
+   font-family: ;
+}
+h2{background-color: green;
+    border-radius: 10px;
+    color: white;
+Å@ font-weight: bold;
+    margin-top: 0;
+}
+p{width: 500px;
+Å@font-weight: 800;
+}
+footer{background-color: gray;
+       color: black;
+       font-style: italic;
+       font-size: small;
+}
