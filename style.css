@@ -1,16 +1,29 @@
+body{
+}
+article{
+         Background-color: white;
+         padding-top: 40px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-bottom:20px;
+}
 h1{font-size: 38px;
    text-align: center;
    color: red;
    font-family: ;
+   border-bottom: double;
+   padding: 10px;
 }
 h2{background-color: green;
     border-radius: 10px;
     color: white;
-Å@ font-weight: bold;
-    margin-top: 0;
+    font-weight: bold;
+    margin-top:30px;
+    margin-bottom:20px;
 }
 p{width: 500px;
-Å@font-weight: 800;
+   font-weight: 800;
+   margin-bottom:10px;
 }
 footer{background-color: gray;
        color: black;
