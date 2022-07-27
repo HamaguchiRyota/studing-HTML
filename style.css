@@ -12,9 +12,9 @@ body{
     background: #eee;
     padding: 20px;
     padding-bottom: 100%;
-    margin-top: 92px;
     margin-right: -8px;
     text-align: center;
+    z-index: 2;
 }
 
 header {
@@ -36,13 +36,15 @@ nav.hnav{
     padding: 10px;
 }
 nav.mnav1{
-    margin-top: 92px;
+    margin-top: 100px;
+    padding-bottom: 20px;
     width: 90%;
+    z-index: 1;
 }
 nav.hnav2{
-    margin-top: 1092px;
     width: 90%;
     height: 100px;
+    z-index: 1;
 }
 ul{
     padding: 0px;
