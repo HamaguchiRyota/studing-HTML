@@ -16,7 +16,7 @@ window.onload = ()=>{
             if(xhr.status == 200 && xhr.status < 300){
                 toast.classList.remove("offline");
                 title.innerText = "You're online now";
-                subTitle.innerText = "Hurray! Internet is connected.";
+                subTitle.innerText = "おけい！現在ネットワークに接続中です。.";
                 wifiIcon.innerHTML = '<i class="uil uil-wifi"></i>';
                 closeIcon.onclick = ()=>{ //hide toast notification on close icon click
                     wrapper.classList.add("hide");
@@ -38,7 +38,7 @@ window.onload = ()=>{
         wrapper.classList.remove("hide");
         toast.classList.add("offline");
         title.innerText = "You're offline now";
-        subTitle.innerText = "Opps! Internet is disconnected.";
+        subTitle.innerText = "あれ？ネットワークを確認できません。";
         wifiIcon.innerHTML = '<i class="uil uil-wifi-slash"></i>';
     }
 
